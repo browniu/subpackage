@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save subpackage
+npm install --S subpackage
 ```
 
 ## Usage
