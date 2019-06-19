@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 // async
-import ExampleComponent from 'subpackage'
+// import ExampleComponent from 'subpackage'
 // insider
-// import {Handle1, Handle2} from 'subpackage'
+import {Handle2} from 'subpackage'
 // outsider
 // import Handle from 'subpackage/dist/outsider/handle_3.js'
 
@@ -20,9 +20,9 @@ export default class App extends Component {
     return (
       <div>
         {/*async*/}
-        {this.state.able && <ExampleComponent type={this.state.type}/>}
+        {/*{this.state.able && <ExampleComponent type={this.state.type}/>}*/}
         {/*insider*/}
-        {/*<Handle2/>*/}
+        <Handle2/>
         {/*outsider*/}
         {/*<Handle/>*/}
         {this.state.method === 'async' && <button onClick={() => {
