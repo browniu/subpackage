@@ -1,11 +1,11 @@
 {
   "name": "subpackage",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "some methods of subpackgage",
   "author": "browniu",
   "license": "MIT",
   "repository": "browniu/subpackage",
-  "main": "dist/index.js",
+  "main": "dist/async/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
   "engines": {
