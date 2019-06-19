@@ -70,7 +70,7 @@ export default {
 |未分离|异步加载|
 
 
-### insider
+### outsider
 
 #### 引包方式
 `import Handle from 'subpackage/dist/outsider/handle_1.js'`
